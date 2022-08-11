@@ -10,7 +10,7 @@ end)
 Section:NewButton("Breaking ESP", "Easy Find", function(state)
   for _,v in pairs(game:GetService("Workspace").Panes:GetChildren()) do
       if #v.Panel.HitPart:GetChildren() > 0 then
-        v.Panel.GlassPanel.Color = Color3.new(255, 1, 1)
+        v.Panel.GlassPanel.Color = Color3.new(255, 0, 0)
       end
     end
 end)
